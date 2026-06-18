@@ -2,7 +2,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Route;
-use Illuminate\Http\Request;
 use App\Http\Controllers\TesteController;
 
 Route::get('/', function () {
@@ -10,3 +9,5 @@ Route::get('/', function () {
 });
 
 Route::get('/teste', [TesteController::class, 'index']);
+
+Route::get('/teste/{id}', [TesteController::class, 'show']);
