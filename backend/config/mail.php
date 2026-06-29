@@ -4,13 +4,13 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Mailer
+    | Mailer Padrão
     |--------------------------------------------------------------------------
     |
-    | This option controls the default mailer that is used to send all email
-    | messages unless another mailer is explicitly specified when sending
-    | the message. All additional mailers can be configured within the
-    | "mailers" array. Examples of each type of mailer are provided.
+    | Esta opção controla o mailer padrão usado para enviar todas as mensagens
+    | de email, a menos que outro mailer seja explicitamente especificado no
+    | momento do envio. Todos os mailers adicionais podem ser configurados no
+    | array "mailers". Exemplos de cada tipo de mailer são fornecidos.
     |
     */
 
@@ -18,16 +18,16 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Mailer Configurations
+    | Configurações de Mailer
     |--------------------------------------------------------------------------
     |
-    | Here you may configure all of the mailers used by your application plus
-    | their respective settings. Several examples have been configured for
-    | you and you are free to add your own as your application requires.
+    | Aqui você pode configurar todos os mailers usados pela sua aplicação e
+    | seus respectivos ajustes. Vários exemplos foram configurados para você
+    | e você pode adicionar seus próprios conforme a necessidade da aplicação.
     |
-    | Laravel supports a variety of mail "transport" drivers that can be used
-    | when delivering an email. You may specify which one you're using for
-    | your mailers below. You may also add additional mailers if needed.
+    | O Laravel suporta uma variedade de drivers de transporte de email que
+    | podem ser usados ao entregar um email. Você pode especificar qual está
+    | usando para seus mailers abaixo. Também pode adicionar mailers adicionais.
     |
     | Supported: "smtp", "sendmail", "mailgun", "ses", "ses-v2",
     |            "postmark", "resend", "log", "array",
@@ -101,12 +101,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Global "From" Address
+    | Endereço Global "From"
     |--------------------------------------------------------------------------
     |
-    | You may wish for all emails sent by your application to be sent from
-    | the same address. Here you may specify a name and address that is
-    | used globally for all emails that are sent by your application.
+    | Você pode desejar que todos os emails enviados pela sua aplicação
+    | sejam enviados a partir do mesmo endereço. Aqui você pode especificar
+    | um nome e endereço usados globalmente para todos os emails enviados.
     |
     */
 

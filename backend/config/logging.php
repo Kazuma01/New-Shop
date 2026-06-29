@@ -9,12 +9,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Log Channel
+    | Canal de Log Padrão
     |--------------------------------------------------------------------------
     |
-    | This option defines the default log channel that is utilized to write
-    | messages to your logs. The value provided here should match one of
-    | the channels present in the list of "channels" configured below.
+    | Esta opção define o canal de log padrão que é utilizado para gravar
+    | mensagens em seus logs. O valor fornecido aqui deve corresponder a um
+    | dos canais presentes na lista de "channels" configurada abaixo.
     |
     */
 
@@ -22,12 +22,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Deprecations Log Channel
+    | Canal de Log de Depreciações
     |--------------------------------------------------------------------------
     |
-    | This option controls the log channel that should be used to log warnings
-    | regarding deprecated PHP and library features. This allows you to get
-    | your application ready for upcoming major versions of dependencies.
+    | Esta opção controla o canal de log que deve ser usado para registrar
+    | avisos sobre recursos do PHP e bibliotecas depreciados. Isso permite
+    | preparar sua aplicação para futuras versões principais das dependências.
     |
     */
 
@@ -38,12 +38,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Log Channels
+    | Canais de Log
     |--------------------------------------------------------------------------
     |
-    | Here you may configure the log channels for your application. Laravel
-    | utilizes the Monolog PHP logging library, which includes a variety
-    | of powerful log handlers and formatters that you're free to use.
+    | Aqui você pode configurar os canais de log para sua aplicação. O Laravel
+    | utiliza a biblioteca de logging Monolog, que inclui uma variedade de
+    | handlers e formatadores poderosos que você pode usar.
     |
     | Available drivers: "single", "daily", "slack", "syslog",
     |                    "errorlog", "monolog", "custom", "stack"

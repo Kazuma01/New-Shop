@@ -6,12 +6,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Cache Store
+    | Armazenamento de Cache Padrão
     |--------------------------------------------------------------------------
     |
-    | This option controls the default cache store that will be used by the
-    | framework. This connection is utilized if another isn't explicitly
-    | specified when running a cache operation inside the application.
+    | Esta opção controla o storage de cache padrão que será usado pelo
+    | framework. Essa conexão é utilizada se outra não for especificada
+    | explicitamente ao executar uma operação de cache na aplicação.
     |
     */
 
@@ -19,12 +19,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Cache Stores
+    | Storages de Cache
     |--------------------------------------------------------------------------
     |
-    | Here you may define all of the cache "stores" for your application as
-    | well as their drivers. You may even define multiple stores for the
-    | same cache driver to group types of items stored in your caches.
+    | Aqui você pode definir todos os "stores" de cache para a sua aplicação
+    | e seus respectivos drivers. Você pode até definir múltiplos stores para
+    | o mesmo driver de cache para agrupar tipos diferentes de itens.
     |
     | Supported drivers: "array", "database", "file", "memcached",
     |                    "redis", "dynamodb", "octane",
